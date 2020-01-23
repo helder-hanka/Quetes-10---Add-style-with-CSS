@@ -1,0 +1,62 @@
+img {
+  opacity: 0.5;
+  -webkit-transition: 2s linear;
+}
+div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+	justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  -webkit-transition: 2s linear;
+}
+/* reaward 100 golden coins*/
+div:nth-last-of-type(2) {
+  position: absolute;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px/20px ;
+  text-align: justify;
+  font-size: 2.8em;
+  width: 450px;
+  text-align: justify;
+  top: calc(100% - 93%);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-weight: bold;
+  -webkit-transition: 2s linear;
+}
+div :nth-child(2), 
+div :nth-child(1) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* 100 */ 
+strong{
+  color: orange;
+}
+/* Gandalf */
+div:nth-child(3) {
+  position: absolute;
+  bottom: calc(100% - 70%);
+  color: white;
+  font-size: 4em;
+  -webkit-transition: 2s linear;
+}
+
+div:hover :nth-child(2){
+  top: -100%;
+  -webkit-transition: 2s linear;
+}
+div:hover img {
+  opacity: 10;
+  -webkit-transition: 2s linear;
+}
+div:hover :nth-child(3){
+  bottom: calc(100% - 96%);
+  font-size: 1em;
+  -webkit-transition: 2s linear;
+}
