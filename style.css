@@ -2,7 +2,9 @@ img {
   opacity: 0.5;
   -webkit-transition: 2s linear;
 }
-div {
+.container {
+  width: 62%;
+  margin: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,17 +18,14 @@ div {
 /* reaward 100 golden coins*/
 div:nth-last-of-type(2) {
   position: absolute;
-  align-items: center;
   background-color: white;
   border-radius: 20px/20px ;
-  text-align: justify;
   font-size: 2.8em;
   width: 450px;
-  text-align: justify;
   top: calc(100% - 93%);
   padding-top: 18px;
   padding-bottom: 18px;
-  font-weight: bold;
+  text-align: center;
   -webkit-transition: 2s linear;
 }
 div :nth-child(2), 
