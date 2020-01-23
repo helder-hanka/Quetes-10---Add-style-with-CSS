@@ -4,7 +4,6 @@ img {
   -webkit-transition: 2s linear;
 }
 .container {
-  background-color: blue;
   width: 500px;
   margin: auto;
   position: relative;
