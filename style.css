@@ -1,9 +1,11 @@
+
 img {
   opacity: 0.5;
   -webkit-transition: 2s linear;
 }
 .container {
-  width: 62%;
+  background-color: blue;
+  width: 500px;
   margin: auto;
   position: relative;
   display: flex;
